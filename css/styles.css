@@ -9,5 +9,73 @@
 	--white-color: #ffffff;
 	--acent-text-color: #2196f3;
 	--footer-text-color: rgba(255, 255, 255, 0.6);
+	--footer-bcg-color: #2f303a;
 }
-
+/* Главная страница */
+body {
+	font-family: Roboto, Raleway, sans-serif;
+	color: var(--secondary-text-color);
+	background-color: #e5e5e5;
+}
+.list {
+	list-style: none;
+}
+/* Хедер главной страници */
+.header {
+	background-color: var(--white-color);
+}
+.logo {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: var(--tittle-text-color);
+}
+.logo-part {
+	color: var(--acent-text-color);
+}
+.link {
+	text-decoration: none;
+}
+.nav-list-link {
+	color: var(--tittle-text-color);
+}
+.nav-list-link:hover,
+.nav-list-link:focus {
+	color: var(--acent-text-color);
+}
+.contacts-link {
+	color: var(--secondary-text-color);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+	color: var(--acent-text-color);
+}
+/* Hero */
+.hero {
+	background-color: var(--footer-bcg-color);
+}
+.hero-header {
+	color: var(--white-color);
+}
+.hero-btn {
+	color: var(--white-color);
+	background-color: var(--acent-text-color);
+}
+/* Футер */
+.footer-contact-adress {
+	color: var(--white-color);
+}
+.footer-contact-adress:hover,
+.footer-contact-adress:focus {
+	color: var(--acent-text-color);
+}
+.footer-contact-link {
+	color: var(--footer-text-color);
+}
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+	color: var(--acent-text-color);
+}

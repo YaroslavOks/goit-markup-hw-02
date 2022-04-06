@@ -16,28 +16,33 @@
 	<body>
 		<header class="header">
 			<nav class="nav">
-				<a href="./index.html" class="logo">>WebStudio</a>
-				<ul class="nav-list">
-					<li class="nav-list-link"><a href="./index.html">Студия</a></li>
-					<li class="nav-list-link"><a href="./portfolio.html">Портфолио</a></li>
-					<li class="nav-list-link"><a href="#">Контакты</a></li>
+				<a href="./index.html" class="logo link">
+					<span class="logo-part">Web</span>
+					Studio
+				</a>
+				<ul class="nav-list list">
+					<li class="nav-list-item"><a href="./index.html" class="nav-list-link link">Студия</a></li>
+					<li class="nav-list-item"><a href="./portfolio.html" class="nav-list-link link">Портфолио</a></li>
+					<li class="nav-list-item"><a href="#" class="nav-list-link link">Контакты</a></li>
 				</ul>
 			</nav>
-			<ul class="contacts">
-				<li class="contacts-link"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-				<li class="contacts-link"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+			<ul class="contacts list">
+				<li class="contacts-item">
+					<a href="mailto:info@devstudio.com" class="contacts-link link">info@devstudio.com</a>
+				</li>
+				<li class="contacts-item"><a href="tel:+380961111111" class="contacts-link link">+38 096 111 11 11</a></li>
 			</ul>
 		</header>
 		<main class="main">
 			<section class="hero">
-				<!--Cекция 1 с кнопкой-->
+				<!--Cекция Hero-->
 				<h1 class="hero-header">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-				<button type="button">Заказать услугу</button>
+				<button type="button" class="hero-btn">Заказать услугу</button>
 			</section>
 			<section class="peculiarities">
 				<!--Секция 2 Особенности студии -->
 				<h2 hidden>Особенности студии</h2>
-				<ul class="peculiarities-list">
+				<ul class="peculiarities-list list">
 					<li>
 						<h3 class="peculiarities-list-tittle">Внимание к деталям</h3>
 						<p class="peculiarities-list-text">
@@ -67,22 +72,37 @@
 			<section class="about-work">
 				<!--Секция 3 чем занимается студия-->
 				<h2 class="about-work-tittle">Чем мы занимаемся</h2>
-				<ul class="about-work-list">
-					<li class="about-work-list-img">
-						<img src="./img/hands_on_pk.jpg" alt="Разрабатываем приложения" width="370" />
+				<ul class="about-work-list list">
+					<li class="about-work-list-item">
+						<img
+							src="./img/hands_on_pk.jpg"
+							class="about-work-list-pictures"
+							alt="Разрабатываем приложения"
+							width="370"
+						/>
 					</li>
-					<li class="about-work-list-img">
-						<img src="./img/phone_on_pc.jpg" alt="Разрабатываем мобильные приложения" width="370" />
+					<li class="about-work-list-item">
+						<img
+							src="./img/phone_on_pc.jpg"
+							class="about-work-list-pictures"
+							alt="Разрабатываем мобильные приложения"
+							width="370"
+						/>
 					</li>
-					<li class="about-work-list-img">
-						<img src="./img/tablet_on_pc.jpg" alt="Разрабатываем дизайн приложения" width="370" />
+					<li class="about-work-list-item">
+						<img
+							src="./img/tablet_on_pc.jpg"
+							class="about-work-list-pictures"
+							alt="Разрабатываем дизайн приложения"
+							width="370"
+						/>
 					</li>
 				</ul>
 			</section>
 			<section class="command">
 				<!--Секция 4 команда-->
 				<h2 class="command-tittle">Наша команда</h2>
-				<ul class="command-list">
+				<ul class="command-list list">
 					<li class="command-list-participant">
 						<img src="./img/igor.jpg" class="participant-foto" alt="Игорь Демьяненко Product Designer" width="270" />
 						<h3 class="participant-name">Игорь Демьяненко</h3>
@@ -107,14 +127,23 @@
 			</section>
 		</main>
 		<footer class="footer">
-			<a href="./index.html" class="logo">WebStudio</a>
+			<a href="./index.html" class="logo link">
+				<span class="logo-part">Web</span>
+				Studio
+			</a>
 			<address class="footer-adress">
-				<ul class="footer-contacts">
-					<li class="footer-contacts-link">
-						<a href="https://goo.gl/maps/19SbdawkpRxHxehs7">г. Киев, пр-т Леси Украинки, 26</a>
+				<ul class="footer-contacts list">
+					<li class="footer-contacts-item">
+						<a href="https://goo.gl/maps/19SbdawkpRxHxehs7" class="footer-contact-adress link">
+							г. Киев, пр-т Леси Украинки, 26
+						</a>
 					</li>
-					<li class="footer-contacts-link"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-					<li class="footer-contacts-link"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+					<li class="footer-contacts-item">
+						<a href="mailto:info@devstudio.com" class="footer-contact-link link">info@devstudio.com</a>
+					</li>
+					<li class="footer-contacts-item">
+						<a href="tel:+380961111111" class="footer-contact-link link">+38 096 111 11 11</a>
+					</li>
 				</ul>
 			</address>
 		</footer>
