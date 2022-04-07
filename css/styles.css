@@ -10,10 +10,11 @@
 	--acent-text-color: #2196f3;
 	--footer-text-color: rgba(255, 255, 255, 0.6);
 	--footer-bcg-color: #2f303a;
+	--buton-bcg-color: #f5f4fa;
 }
 /* Главная страница */
 body {
-	font-family: Roboto, Raleway, sans-serif;
+	font-family: Roboto, sans-serif;
 	color: var(--secondary-text-color);
 	background-color: #e5e5e5;
 }
@@ -40,10 +41,19 @@ body {
 	text-decoration: none;
 }
 .nav-list-link {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
 	color: var(--tittle-text-color);
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
+	color: var(--acent-text-color);
+}
+.nav-list .current {
 	color: var(--acent-text-color);
 }
 .contacts-link {
@@ -78,4 +88,14 @@ body {
 .footer-contact-link:hover,
 .footer-contact-link:focus {
 	color: var(--acent-text-color);
+}
+/*  Портфолио */
+.filter-list-btn {
+	color: var(--tittle-text-color);
+	background-color: var(--buton-bcg-color);
+}
+.filter-list-btn:hover,
+.filter-list-btn:focus {
+	color: var(--white-color);
+	background-color: var(--acent-text-color);
 }
