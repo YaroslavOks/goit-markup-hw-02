@@ -15,7 +15,10 @@
 /* Главная страница */
 body {
 	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.03em;
 	color: var(--secondary-text-color);
+	background-color: var(--white-color);
 }
 .list {
 	list-style: none;
@@ -25,15 +28,12 @@ body {
 	font-style: normal;
 }
 /* Хедер главной страници */
-.header {
-	background-color: var(--white-color);
-}
+
 .logo.primary {
 	font-family: "Raleway";
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	letter-spacing: 0.03em;
 	color: var(--tittle-text-color);
 }
 .logo-part {
@@ -42,7 +42,6 @@ body {
 
 .nav-list-link {
 	font-weight: 500;
-	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--tittle-text-color);
@@ -56,7 +55,6 @@ body {
 }
 .contacts-link {
 	font-weight: 500;
-	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--secondary-text-color);
@@ -95,16 +93,12 @@ body {
 /* Скеция 2 Особенности студии */
 .peculiarities-list-tittle {
 	font-weight: 700;
-	font-size: 14px;
 	line-height: 1.14;
-	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--tittle-text-color);
 }
 .peculiarities-list-text {
-	font-size: 14px;
 	line-height: 1.71;
-	letter-spacing: 0.03em;
 }
 /* Секция 3 чем занимается студия */
 .about-work-tittle {
@@ -112,7 +106,6 @@ body {
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
-	letter-spacing: 0.03em;
 	color: var(--tittle-text-color);
 }
 /* Секция 4 команда */
@@ -121,20 +114,17 @@ body {
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
-	letter-spacing: 0.03em;
 	color: var(--tittle-text-color);
 }
 .participant-name {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
-	letter-spacing: 0.03em;
 	color: var(--tittle-text-color);
 }
 .participant-activity {
 	font-size: 16px;
 	line-height: 1.19;
-	letter-spacing: 0.03em;
 }
 /* Футер */
 .footer {
@@ -145,13 +135,10 @@ body {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	letter-spacing: 0.03em;
 	color: var(--white-color);
 }
 .footer-contact-adress {
-	font-size: 14px;
 	line-height: 1.71;
-	letter-spacing: 0.03em;
 	color: var(--white-color);
 }
 .footer-contact-adress:hover,
@@ -159,9 +146,7 @@ body {
 	color: var(--acent-text-color);
 }
 .footer-contact-link {
-	font-size: 14px;
 	line-height: 1.71;
-	letter-spacing: 0.03em;
 	color: var(--footer-text-color);
 }
 .footer-contact-link:hover,
@@ -176,7 +161,6 @@ body {
 	font-size: 16px;
 	line-height: 1.62;
 	text-align: center;
-	letter-spacing: 0.03em;
 	color: var(--tittle-text-color);
 	background-color: var(--buton-bcg-color);
 	cursor: pointer;
@@ -196,5 +180,4 @@ body {
 .project-list-description {
 	font-size: 16px;
 	line-height: 1.88;
-	letter-spacing: 0.03em;
 }
